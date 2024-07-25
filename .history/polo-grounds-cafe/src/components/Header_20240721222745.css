@@ -1,0 +1,50 @@
+/* Header.css */
+header {
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .header-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 40px;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  nav a {
+    color: #212121;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+  }
+  
+  .cta-buttons a {
+    padding: 7px 16px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .find-store {
+    color: #212121;
+  }
+  
+  .sign-in {
+    color: #212121;
+    border: 1px solid #212121;
+  }
+  
+  .join-now {
+    background-color: #1c4e2c;
+    color: #ffffff;
+  }

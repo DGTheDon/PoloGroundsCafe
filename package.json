@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6"
+  },
+  "scripts": {
+    "start": "cd polo-grounds-cafe && react-scripts start",
+    "build": "cd polo-grounds-cafe && react-scripts build",
+    "test": "cd polo-grounds-cafe && react-scripts test",
+    "eject": "cd polo-grounds-cafe && react-scripts eject"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^2.7.3",
+    "@stripe/stripe-js": "^4.1.0",
+    "axios": "^1.7.2",
+    "firebase": "^10.12.4",
+    "lucide-react": "^0.414.0",
+    "react-router-dom": "^6.25.1",
+    "react-scripts": "^5.0.1"
+  }
+}
